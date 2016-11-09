@@ -201,6 +201,7 @@ NativeStateDRM::init()
     // driver (udev?).
     static const char* drm_modules[] = {
         "i915",
+        "i915_bpo",
         "nouveau",
         "radeon",
         "vmgfx",
